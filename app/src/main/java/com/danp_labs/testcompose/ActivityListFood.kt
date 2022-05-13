@@ -63,6 +63,7 @@ fun ShowListFood() {
     foodList.add("Adobo Tacneño, Picante a la Tacneña")
     foodList.add("Ceviche de Pescado, Mariscos")
     foodList.add("Pato a la Ucayalina, Picadillo de Paiche")
+
     val selectedFoodDepartment = foodList[departmentId - 1]
     val foods = selectedFoodDepartment.split(",")
     println("El código del departamento es: $departmentId")
